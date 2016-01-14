@@ -1,0 +1,91 @@
+body {
+	font-family: "Lato", Arial, Sans-Serif;
+}
+
+.helper-text {
+	color: #505050;
+}
+
+.search-button {
+	width: 100%;
+}
+
+.helper-search-options-container {
+	margin-top: .5em;
+}
+
+.date-row {
+	margin-top: 1em;
+	height: 15em;
+	position: relative;
+}
+
+.date-container {
+	width: 9.09%;
+	text-align: center;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #505050;
+	height: 100%;
+}
+
+.date-container:last-child {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #505050;
+}
+
+
+.date-container .date-of-week {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.date-container .date {
+	font-size: .8em;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+
+.date-band {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+.date-band-main {
+	font-weight: 700;
+	font-size: 1.3em;
+	color: #fff;
+}
+
+.date-band-interactive {
+	position: absolute;
+	top: 2.7em;
+	background-color: #e67e22;
+	width: 54.54%;
+}
+
+.date-band-film-conference {
+	position: absolute;
+	top: 5em;
+	background-color: #2980b9;
+	width: 54.54%;
+}
+
+.date-band-film-festival {
+	position: absolute;
+	top: 5em;
+	left: 54.54%;
+	background-color: #34495e;
+	width: 36.36%;
+}
+
+.date-band-music-festival {
+	position: absolute;
+	top: 7.3em;
+	background-color: #2abb67;
+	left: 45.45%;
+	width: 54.54%;
+}
