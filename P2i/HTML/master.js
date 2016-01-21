@@ -12,6 +12,10 @@ function initPage(){
 	$('#check-out-input').focusout(function() {
 		$('.date-row').addClass('date-container-hidden');
 	});
+
+	$('.more-options-helper').on('click', function(){
+		$(".more-options-helper .glyphicon-triangle-bottom").toggleClass("rotate180deg");
+	});
 }
 
 window.onload = initPage();
