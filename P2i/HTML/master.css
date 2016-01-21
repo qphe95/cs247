@@ -55,7 +55,7 @@ body {
 
 .date-container .date-of-week {
 	font-weight: 600;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	padding-top: 2px;
 }
 
