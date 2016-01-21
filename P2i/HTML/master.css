@@ -1,6 +1,10 @@
 body {
 	font-family: "Lato", Arial, Sans-Serif;
 }
+.navbar-brand {
+	font-size: 4em;
+	margin: 10px;
+}
 
 .helper-text {
 	color: #505050;
@@ -12,39 +16,37 @@ body {
 
 .helper-search-options-container {
 	margin-top: .5em;
+	margin-bottom: .5em;
 }
 
 .date-row {
 	margin-top: 1em;
 	height: 15em;
 	position: relative;
+	cursor: pointer;
 }
 
 .date-container {
 	width: 9.09%;
 	text-align: center;
-	border-left-style: solid;
-	border-left-width: 1px;
-	border-left-color: #505050;
 	height: 100%;
-}
-
-.date-container:last-child {
+	background-color: #ededed;
+	border-right-color: #fff;
 	border-right-style: solid;
-	border-right-width: 1px;
-	border-right-color: #505050;
 }
 
+.date-container-hidden {
+	display: none;
+}
 
 .date-container .date-of-week {
 	font-weight: 600;
 	text-transform: uppercase;
+	padding-top: 2px;
 }
 
 .date-container .date {
 	font-size: .8em;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
 }
 
 
@@ -56,7 +58,7 @@ body {
 
 .date-band-main {
 	font-weight: 700;
-	font-size: 1.3em;
+	font-size: 1em;
 	color: #fff;
 }
 
