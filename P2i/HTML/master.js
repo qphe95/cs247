@@ -14,7 +14,7 @@ function initPage(){
 	});
 
 	$('.more-options-helper').on('click', function(){
-		$(".more-options-helper .glyphicon-triangle-bottom").toggleClass("rotate180deg");
+		$(".more-options-helper .glyphicon-triangle-bottom").toggleClass("glyphicon-triangle-top");
 	});
 }
 
