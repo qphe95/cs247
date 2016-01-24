@@ -192,10 +192,10 @@ body {
 
 .hotel-container .background-image {
 	width: 110%;
-	opacity: .4;
+	opacity: .6;
 	background-color: #000;
 }
 
 .hotel-container .background-image:hover {
-	opacity: .8;
+	opacity: .2;
 }
