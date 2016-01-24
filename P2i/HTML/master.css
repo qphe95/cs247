@@ -116,10 +116,13 @@ body {
 	display: none;
 }
 
+.option-title {
+	font-weight: 600;
+}
 
 .more-options-menu {
 	margin-bottom: 1em;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .more-options-menu .glyphicon-star {
@@ -135,4 +138,8 @@ body {
 	font-size: 1.5em;
 	padding: 1em;
 	cursor: pointer;
+}
+
+.btn {
+	border-radius: 0;
 }
