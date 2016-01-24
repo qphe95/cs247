@@ -15,6 +15,7 @@ function initPage(){
 
 	$('.more-options-helper').on('click', function(){
 		$(".more-options-helper .glyphicon-triangle-bottom").toggleClass("glyphicon-triangle-top");
+		$(".more-options-menu").toggleClass("more-options-menu-hidden");
 	});
 }
 
