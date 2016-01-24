@@ -176,6 +176,20 @@ body {
 	font-size: 1.2em;
 }
 
+.hotel-container .twitter-users {
+	text-align: right;
+	width: 90%;
+	position: absolute;
+	top: 135px;
+}
+
+.twitter-users img {
+	width: 30px;
+	margin-left: 5px;
+	margin-top: 3px;
+	border-radius: 50%;
+}
+
 .hotel-container .background-image {
 	width: 110%;
 	opacity: .4;
