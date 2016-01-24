@@ -119,6 +119,15 @@ body {
 
 .more-options-menu {
 	margin-bottom: 1em;
+	font-size: 1.2em;
+}
+
+.more-options-menu .glyphicon-star {
+	cursor: pointer;
+}
+
+.distance-input {
+	display: inline-block;
 }
 
 .navbar-custom .link {
