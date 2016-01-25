@@ -1,0 +1,47 @@
+.hotel-col{
+	background-color: black;
+}
+
+.hotel-row {
+	margin-bottom:30px;
+}
+
+.hotel-image {
+	width: 100%;
+	height: 235px;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.hotel-image:hover {
+	opacity: 0.2;
+}
+
+.hotel-text {
+	position:absolute;
+	top:45px;
+	left:75px;
+	text-align: center;
+	color: rgb(240, 240, 240);
+}
+
+.hotel-name {
+	font-weight: 400;
+	position: center;
+}
+
+.hotel-price {
+	font-size: 48px;
+	font-weight:300;
+	margin-top: 15px;
+}
+
+.hotel-distance {
+	margin-top:20px;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.hotel-container {
+	max-width: 800px;
+}
